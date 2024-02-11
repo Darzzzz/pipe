@@ -10,7 +10,7 @@ pipeline{
         stage ("stage-1") {
             steps {
                 // sh "git clone https://github.com/Darzzzz/pipe.git"
-                
+                echo "Echo Q1"
                 // dir("/mnt/xyz") {
                     sh "pwd"
                     sh "ls -ltr"
